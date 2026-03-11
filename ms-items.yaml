@@ -47,5 +47,8 @@ resilience4j:
       items:
         base-config: default
 
+config:
+  message: config read from config server
+
 
 
