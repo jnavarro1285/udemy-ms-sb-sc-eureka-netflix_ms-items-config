@@ -1,12 +1,6 @@
 spring:
   application:
     name: ms-items
-  devtools:
-    restart:
-      enabled: true
-      additional-paths: src/main/java
-    livereload:
-      enabled: true
 #  cloud:
 #    discovery:
 #      client:
