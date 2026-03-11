@@ -13,7 +13,7 @@ spring:
 #              - uri: http://localhost:9003
 
 server:
-  port: 8000
+  port: 8001
 
 web:
   config:
@@ -48,7 +48,7 @@ resilience4j:
         base-config: default
 
 config:
-  message: config read from config server
+  message: config STAGING environment
 
 
 
