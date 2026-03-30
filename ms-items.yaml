@@ -13,7 +13,7 @@ spring:
 #              - uri: http://localhost:9003
 
 server:
-  port: 8181
+  port: ${PORT:8081}
 
 web:
   config:
